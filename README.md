@@ -1,8 +1,12 @@
 # Online Exam Pass Prediction
 
-A production-style machine learning project that predicts whether a student is likely to pass an online exam using academic and behavioral indicators such as study hours, previous score, attendance, assignment performance, sleep quality, and participation in online classes.
+A production-style machine learning project that predicts whether a student is likely to pass an online exam using academic and behavioral indicators such as study hours, previous score, attendance, assignment score, practice tests, online participation, and sleep quality.
 
 This project is built as a lightweight, interview-ready Streamlit dashboard that demonstrates an end-to-end ML workflow: dataset generation, EDA, preprocessing, Logistic Regression modeling, evaluation, feature analysis, and live prediction.
+
+## Repository
+
+[View project on GitHub](https://github.com/sgsinghashka-del/ONLINE-EXAM-PASS-PREDICTION-Logistic-Regression)
 
 ![Dashboard preview](docs/assets/dashboard-preview.svg)
 
@@ -12,7 +16,7 @@ This project is built as a lightweight, interview-ready Streamlit dashboard that
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # Windows: venv\\Scripts\\activate
+source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python scripts/train_model.py
 streamlit run app.py
@@ -48,4 +52,4 @@ ONLINE-EXAM-PASS-PREDICTION-Logistic-Regression/
 
 ## Responsible-use note
 
-The included dataset is synthetic and intended for education and portfolio demonstration. Predictions should not be used as the sole basis for decisions about students; real deployment requires validated data, fairness testing, calibration, monitoring, and human review.
+The included dataset is synthetic and intended for education and portfolio demonstration. Predictions should not be used as the sole basis for decisions about students; real deployment requires various validations, fairness testing, calibration, monitoring, and human review.
