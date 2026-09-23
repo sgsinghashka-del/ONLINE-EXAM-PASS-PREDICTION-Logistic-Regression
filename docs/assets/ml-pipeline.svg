@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Machine learning pipeline</title>
+  <desc id="desc">The project pipeline: data, preprocessing, training, evaluation, and interactive prediction.</desc>
+  <rect width="1200" height="420" fill="#f8fafc"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">End-to-end ML workflow</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g><rect x="55" y="150" width="180" height="130" rx="18" fill="#dbeafe" stroke="#3b82f6" stroke-width="3"/><text x="145" y="200" font-size="24" font-weight="700" fill="#1e3a8a">1. Data</text><text x="145" y="235" font-size="16" fill="#334155">CSV + synthetic</text></g>
+    <g><rect x="275" y="150" width="180" height="130" rx="18" fill="#ede9fe" stroke="#8b5cf6" stroke-width="3"/><text x="365" y="200" font-size="24" font-weight="700" fill="#5b21b6">2. Prepare</text><text x="365" y="235" font-size="16" fill="#334155">Impute + scale</text></g>
+    <g><rect x="495" y="150" width="180" height="130" rx="18" fill="#dcfce7" stroke="#22c55e" stroke-width="3"/><text x="585" y="200" font-size="24" font-weight="700" fill="#166534">3. Train</text><text x="585" y="235" font-size="16" fill="#334155">Logistic Regression</text></g>
+    <g><rect x="715" y="150" width="180" height="130" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/><text x="805" y="200" font-size="24" font-weight="700" fill="#92400e">4. Evaluate</text><text x="805" y="235" font-size="16" fill="#334155">ROC-AUC + F1</text></g>
+    <g><rect x="935" y="150" width="210" height="130" rx="18" fill="#ffe4e6" stroke="#f43f5e" stroke-width="3"/><text x="1040" y="200" font-size="24" font-weight="700" fill="#9f1239">5. Predict</text><text x="1040" y="235" font-size="16" fill="#334155">Streamlit dashboard</text></g>
+  </g>
+  <g stroke="#64748b" stroke-width="4" fill="none"><path d="M235 215h35l-12-10m12 10-12 10"/><path d="M455 215h35l-12-10m12 10-12 10"/><path d="M675 215h35l-12-10m12 10-12 10"/><path d="M895 215h35l-12-10m12 10-12 10"/></g>
+  <text x="600" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">Explainable predictions support early academic intervention.</text>
+</svg>

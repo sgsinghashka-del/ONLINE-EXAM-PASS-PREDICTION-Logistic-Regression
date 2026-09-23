@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Online Exam Pass Prediction dashboard preview</title>
+  <desc id="desc">A presentation visual showing the Streamlit dashboard flow from student inputs to model probability and evaluation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#1e3a5f"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e8eef7"/></linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <text x="55" y="68" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">Online Exam Pass Prediction</text>
+  <text x="57" y="102" fill="#b9d8ff" font-family="Arial, sans-serif" font-size="18">Streamlit ML dashboard • interpretable Logistic Regression</text>
+  <rect x="55" y="145" width="330" height="455" rx="18" fill="url(#card)"/>
+  <text x="82" y="185" fill="#172033" font-family="Arial, sans-serif" font-size="21" font-weight="700">Student profile</text>
+  <g fill="#516173" font-family="Arial, sans-serif" font-size="16">
+    <text x="82" y="230">Study hours / day</text><text x="82" y="285">Previous score</text><text x="82" y="340">Attendance</text><text x="82" y="395">Practice tests</text><text x="82" y="450">Online participation</text><text x="82" y="505">Sleep hours</text>
+  </g>
+  <g fill="#2563eb"><rect x="82" y="242" width="245" height="9" rx="5"/><rect x="82" y="297" width="205" height="9" rx="5"/><rect x="82" y="352" width="225" height="9" rx="5"/><rect x="82" y="407" width="150" height="9" rx="5"/><rect x="82" y="462" width="215" height="9" rx="5"/><rect x="82" y="517" width="185" height="9" rx="5"/></g>
+  <rect x="430" y="145" width="330" height="455" rx="18" fill="#ffffff"/>
+  <text x="460" y="185" fill="#172033" font-family="Arial, sans-serif" font-size="21" font-weight="700">Prediction result</text>
+  <circle cx="595" cy="335" r="105" fill="#dcfce7" stroke="#22c55e" stroke-width="10"/>
+  <text x="595" y="325" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="34" font-weight="700">PASS</text>
+  <text x="595" y="360" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="21">87.4% probability</text>
+  <rect x="493" y="485" width="205" height="46" rx="23" fill="#2563eb"/><text x="595" y="515" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="17" font-weight="700">Predict result</text>
+  <rect x="805" y="145" width="340" height="455" rx="18" fill="#ffffff"/>
+  <text x="835" y="185" fill="#172033" font-family="Arial, sans-serif" font-size="21" font-weight="700">Model evaluation</text>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#334155"><text x="840" y="235">Accuracy</text><text x="840" y="285">Precision</text><text x="840" y="335">Recall</text><text x="840" y="385">F1 score</text><text x="840" y="435">ROC-AUC</text></g>
+  <g font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2563eb" text-anchor="end"><text x="1110" y="235">92.0%</text><text x="1110" y="285">91.4%</text><text x="1110" y="335">93.1%</text><text x="1110" y="385">92.2%</text><text x="1110" y="435">0.96</text></g>
+  <polyline points="845,535 885,500 925,515 965,455 1005,470 1045,410 1095,380" fill="none" stroke="#22c55e" stroke-width="5"/>
+  <line x1="845" y1="550" x2="1100" y2="550" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="55" y="645" fill="#b9d8ff" font-family="Arial, sans-serif" font-size="15">Illustrative project preview • generated as a GitHub-friendly SVG asset</text>
+</svg>
